@@ -1,0 +1,378 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+body {
+    font-family: "Work Sans", sans-serif !important;
+}
+h1,h2,h3, p {
+    font-family: "Work Sans", sans-serif !important;
+}
+.paragraph1 {
+margin-left: 20px;
+}
+.navbarBrand {
+    color:#333;
+    font-size:35px ;
+    font-weight: 500;
+    text-decoration: none;
+}
+.borderRight {
+    border-right: 1px solid black;
+} 
+.borderRight h3 {
+    font-weight: bolder;
+    font-family: "Work Sans", sans-serif;
+    font-size: 36px;
+}
+.borderRight p {
+    
+    font-family: "Work Sans", sans-serif;
+}
+.borderRight a {
+    font-weight: bolder;
+    font-family: "Work Sans", sans-serif;
+    color: black;
+    text-decoration: underline;
+    outline: none;
+}
+@media (max-width:767px){
+    .borderRight {
+        border: none;
+    }
+    .borderRight h1 {
+        margin-bottom: 10px;
+        font-size: 20px;
+        font-family: "Work Sans", sans-serif;
+    }
+    .borderRight p {
+        font-size: small;
+        font-family: "Work Sans", sans-serif;
+    }
+    .borderRight a {
+        font-size: small;
+        font-family: "Work Sans", sans-serif;
+        color: black;
+        text-decoration: underline;
+      
+    }
+}
+.container a:hover {
+    text-decoration: none;
+}
+.borderArea {
+    border-right: 1px solid black;
+    
+}
+.Mybtn {
+        width: 120px;
+        height: 40px;
+        padding: 0px 8px;
+        background-color: rgb(43, 43, 60);
+        color: #fff;
+        font-weight: bolder;
+        font-size: 17px;
+        border-radius: 48px;
+       margin-top: 10px;
+        margin-left: 15px;
+        text-align: center;
+}
+.Mybtn2 {
+    width: 120px;
+    height: 40px;
+    padding: 0px 8px;
+    background-color: rgb(43, 43, 60);
+    color: #fff;
+    font-weight: bolder;
+    font-size: 17px;
+    border-radius: 48px;
+   
+    margin-left: 15px;
+    text-align: center;
+}
+.Mybtn:hover {
+    background-color:#6B6B77;
+    color: #fff;
+    font-weight: bolder;
+    font-size: 17px;
+    border-radius: 48px;
+    padding: 0px 8px;
+    height: 40px;
+    width: 120px;
+   
+}
+.Mybtn2:hover {
+    background-color:#6B6B77;
+    color: #fff;
+    font-weight: bolder;
+    font-size: 17px;
+    border-radius: 48px;
+    padding: 0px 8px;
+    height: 40px;
+    width: 120px;
+   
+}
+
+
+.Mybtn a {
+    color: #fff;
+    
+}
+.paragraph2 {
+    margin-top: 15px;
+    margin-left: 20px;
+}
+i {
+    display: block;
+}
+.HideLI {
+    display: none;
+}
+@media (max-width:767px){
+    .paragraph1 {
+        margin-left: 0px;
+    }
+    .paragraph2 {
+       display: none;
+    }
+   .IconArea > i {
+        display: none;
+    }
+    .HideLI {
+        display: block;
+    }
+    .borderArea {
+        border:none;
+    }
+    .MidleHidden {
+        display: none;
+    }
+   
+}
+
+
+.IconArea {
+    color: black;
+    font-weight: 100;
+    margin-top: 15px;
+}
+.ExploreArea {
+    color:black;
+    margin-top: 15px;
+    font-weight: bolder;
+}
+.borderArea1 {
+    border-bottom: 1px solid black;
+  
+}
+.active {
+    font-weight: bolder;
+    font-size: large;
+}
+.active a {
+    color: black;
+}
+
+
+.section1 {
+    margin-top:90px;
+    text-transform: capitalize;
+    
+}
+@media (max-width:768px){
+    .section1 {
+        margin-top:-1px;    
+        text-transform: capitalize;
+        
+    }
+}
+.section1 h1 {
+    font-weight: bold;
+}
+
+.section1 h5 {
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.section2 {
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+.borderArea2 {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black; 
+}
+.borderArea2 input {
+    border-radius: 30px;
+
+}
+.borderArea2 h5 {
+    font-weight: bold;
+    font-size: 26px;
+}
+.borderArea2 p {
+    font-size: 20px;
+}
+.mision h3 {
+      font-family: "Work Sans", sans-serif;
+      font-weight: bolder;
+      font-size: 30px;
+}
+.underline a {
+    text-decoration: underline;
+}
+.DownloadImg img {
+    margin-left: 250px;
+}
+.Mybtn10 {
+    width: 120px;
+    height: 40px;
+    padding: 0px 8px;
+    background-color: rgb(43, 43, 60);
+    color: #fff;
+    font-weight: bolder;
+    font-size: 17px;
+    border-radius: 48px;
+   margin-top: 10px;
+ 
+}
+.myBtnArea {
+    margin-top: 45px;
+}
+
+@media (max-width:768px){
+    .borderArea2 h5 {
+        text-align: center;
+       
+    }
+    .borderArea2 input {
+        border-radius: 30px;
+        margin-top: -40px;
+    }
+    .borderArea2 button {
+        margin-left: 150px;
+        margin-top: -50px;
+       
+    }
+    .mision h3 {
+        font-family: "Work Sans", sans-serif;
+        font-weight: bolder;
+        font-size: 20px;
+  }
+  .underline a {
+    text-decoration: underline;
+    font-size: small;
+}
+.myBtnArea {
+  margin-top: -20px;
+  margin-left: 150px;
+  margin-bottom: 10px;
+}
+
+
+.borderArea2 h5 {
+    font-weight: bolder;
+    font-size: 20px;
+}
+.borderArea2 p {
+    font-size: 14px;
+    margin-left: 40px;
+}
+.DownloadImg img {
+margin-top: -100px;
+margin-left: 20px;
+}
+
+.Mybtn10 {
+    width: 120px;
+    height: 40px;
+    padding: 0px 8px;
+    background-color: rgb(43, 43, 60);
+    color: #fff;
+    font-weight: bolder;
+    font-size: 17px;
+    border-radius: 48px;
+   margin-top: 10px;
+ 
+}
+.borderArea2 button{
+    margin-left: 15px;
+}
+.paragrap3 {
+    text-align: justify;
+    width: 150px;
+}
+.footerP p {
+    display: block;
+    width: 200px;
+   
+}
+
+}
+
+
+.footerArea p {
+    color: #90939E;
+}
+.footerP a  {
+    color: black;
+}
+
+
+.borderArea3 {
+    border-bottom: 1px solid black;
+    margin-bottom: 100px;
+}
+.OurMission h1 {
+    font-weight: bolder;
+    color: rgb(110, 83, 255);
+}
+.OurMission a {
+    color: black;
+    font-weight: bold;
+}
+.DownloadImg {
+    margin-top: 150px;
+  
+}
+.paragrap3 {
+    margin-right: 400px;
+}
+.footerArea p {
+font-size: small;
+margin-top: 30px;
+font-weight:bold; 
+
+}
+h4,h5,h6{
+    font-family: Cardo, serif;
+}
+h5{
+    font-size: 24px;
+}
+.smallDevice {
+    display: none;
+}
+@media (max-width:768px){
+    .BigDevice {
+       opacity: 0;
+    }
+    .smallDevice {
+        display: block;
+    }
+}
+
+.borderBottomArea {
+    border-bottom: 1px solid black;
+    display: inline;
+}
+.borderArea110 {
+  float: left;
+  margin-left: 30px;
+}  
+.borderArea10 {
+    float: left;
+    margin-left: -30px;
+}
